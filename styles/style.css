@@ -1,0 +1,88 @@
+#chatbot_area {
+    width: 380px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: fixed;
+    bottom: -5px;
+    right: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column; /* Элементы внутри chatbot_area будут располагаться вертикально */
+    z-index: 9999; 
+    border-radius: 15px; /* Можете изменить значение в зависимости от того, насколько круглыми вы хотите сделать края */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* горизонтальный отступ, вертикальный отступ, радиус размытия, цвет тени */
+
+}
+
+#input_wrapper {
+    display: flex; /* Включаем flexbox */
+    align-items: center; /* Центрируем элементы по вертикали */
+}
+
+#chat_messages {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+#chat_messages > div {
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    max-width: 80%;         /* Максимальная ширина сообщений */
+}
+
+#chat_messages > div:nth-child(odd) {
+    background-color: #dcdcdc;   /* фон ответа бота */
+    float: left;              /* сообщения бота выравниваются по левому краю */
+    clear: both;              /* предотвращает наложение флоатов друг на друга */
+
+}
+
+#chat_messages > div:nth-child(even) {
+    background-color: #dcdcdc;   /* фон сообщения пользователя */
+    color: black;             /* цвет текста для лучшей видимости на синем фоне */
+    float: right;             /* сообщения пользователя выравниваются по правому краю */
+    clear: both;              /* предотвращает наложение флоатов друг на друга */
+}
+
+#chat_input {
+    width: 70%;
+    padding: 5px;
+    resize: none; /* Отключает возможность ручного изменения размера textarea */
+    overflow: hidden; /* Скрывает полосы прокрутки */
+    border-radius: 15px; /* Можете изменить значение в зависимости от того, насколько круглыми вы хотите сделать края */
+    background-color: #F7F8FC;
+}
+
+#chat_send {
+    padding: 5px 10px;
+    width: 78px;
+    margin-left: 10px;
+    background-color: #2F54EB;   /* фон сообщения пользователя */
+    color: white;
+    border: none;
+    border-radius: 15px; /* Можете изменить значение в зависимости от того, насколько круглыми вы хотите сделать края */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* горизонтальный отступ, вертикальный отступ, радиус размытия, цвет тени */
+
+
+}
+
+
+.message-time{
+    font-size: 12px;
+}
+
+input[name="gpt_key"] {
+    width: 450px !important;
+}
+
+.file-link{
+    background-color: red;
+}
+
+.gpt_api_input {
+    width: 450px;
+    height: 40px;
+}
+
