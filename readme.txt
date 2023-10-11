@@ -1,4 +1,4 @@
-# Bond Chat Plugin for WordPress
+**Bond Chat** Plugin for WordPress
 
 ## Description
 *Bond Chat* is a WordPress plugin that integrates a chatbot interface into your website, providing instant, automated responses to visitor queries. It offers a real-time communication channel, enhancing user experience, and engagement.
