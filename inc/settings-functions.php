@@ -144,8 +144,3 @@ function save_api_key_to_file() {
     fclose($file);
 }
 add_action('updated_option', 'save_api_key_to_file');
-
-// function communication_history_section_callback() {
-//     echo '<p>Here you can view the communication history between users and the chatbot.</p>';
-// }
-

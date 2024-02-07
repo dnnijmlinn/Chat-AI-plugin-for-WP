@@ -86,3 +86,7 @@ input[name="gpt_key"] {
     height: 40px;
 }
 
+input[type=text]{
+    background-color: black;
+    color: black;
+}

@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Bond Chat
+Plugin Name: AI chat bot
 Description: Interface for our custom chatbot.
 Version: 1.0
 Author: Denis Bogdanov
@@ -81,5 +81,6 @@ function hide_update_notice() {
     }
 }
 add_action('admin_head', 'hide_update_notice');
+
 
 ?>

@@ -1,18 +1,10 @@
 <?php
-/**
- * Файл admin-functions.php
- * Включает в себя все функции, связанные с административной панелью плагина.
- */
-
-/**
- * Добавляет страницу настроек плагина в админ-панель WordPress.
- */
 
  function chatbot_settings_page() {
     add_submenu_page(
         'tools.php',
-        'Bond Chat',
-        'Bond Chat',
+        'AI chat bot',
+        'AI chat bot',
         'manage_options',
         'chat-bot-settings',
         'chatbot_settings_page_content'
