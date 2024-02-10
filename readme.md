@@ -43,13 +43,3 @@
 
 ### For Visitors
 * Visitors can interact with the *Bond Chat* bot directly on the page where the shortcode is added. The bot will provide real-time responses based on the configured settings and algorithms.
-
-
-после сохранения ключа переносим файл в главную директорию плагина
-pip install llama_index
-pip install --upgrade llama_index
-pip install --upgrade openai
-pip install --upgrade langchain
-pip install gpt
-pip install flask flask-cors mysql-connector-python langchain
-pip install --upgrade langchain_community
